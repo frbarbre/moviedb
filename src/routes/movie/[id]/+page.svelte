@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <div class="flex justify-between w-full">
+    <div class="flex justify-between w-full flex-wrap gap-4">
         <div class="flex flex-1 flex-col gap-8">
             {#each actors as actor, index}
                 {#if index <= 4}
