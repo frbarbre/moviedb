@@ -46,7 +46,7 @@
     </div>
 
     <div class="flex justify-between w-full flex-wrap gap-4">
-        <div class="flex flex-1 flex-col gap-8">
+        <div class="flex flex-col gap-8">
             {#each actors as actor, index}
                 {#if index <= 4}
                     <div class="flex gap-4 items-center">
@@ -63,12 +63,12 @@
                 {/if}
             {/each}
         </div>
-        <div class="flex-1 translate-y-[-14px]">
+        <div class="translate-y-[-14px]">
             <h2 class="font-bold uppercase text-[32px] relative">Summary</h2>
             <div class="w-[176px] h-[3px] bg-orange-500 translate-y-[-5px] translate-x-[-5px] mb-2"/>
             <p class="font-medium max-w-[400px] leading-6 tracking-wide">{movie.overview}</p>
         </div>
-        <div class="flex-1 translate-y-[-14px]">
+        <div class="translate-y-[-14px]">
             <h2 class="font-bold uppercase text-[32px] relative">Information</h2>
             <div class="w-[238px] h-[3px] bg-orange-500 translate-y-[-5px] translate-x-[-5px] mb-2"/>
             <h3 class="uppercase font-medium pb-2">Release Date: <span class="text-orange-500 font-bold">{movie.release_date}</span></h3>
