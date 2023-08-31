@@ -75,8 +75,8 @@
             <h3 class="uppercase font-medium pb-2">Runtime: <span class="text-orange-500 font-bold">{movie.runtime} minutes</span></h3>
             <h3 class="uppercase font-medium pb-2">Original Title: <span class="text-orange-500 font-bold">{movie.original_title}</span></h3>
             <h3 class="uppercase font-medium pb-2">Language: <span class="text-orange-500 font-bold">{movie.original_language}</span></h3>
-            <h3 class="uppercase font-medium pb-2">Budget: <span class="text-orange-500 font-bold">{movie.budget}$</span></h3>
-            <h3 class="uppercase font-medium pb-2">Revenue: <span class="text-orange-500 font-bold">{movie.revenue}$</span></h3>
+            <h3 class="uppercase font-medium pb-2">Budget: <span class="text-orange-500 font-bold">{movie.budget.toLocaleString()}$</span></h3>
+            <h3 class="uppercase font-medium pb-2">Revenue: <span class="text-orange-500 font-bold">{movie.revenue.toLocaleString()}$</span></h3>
         </div>
     </div>
     
